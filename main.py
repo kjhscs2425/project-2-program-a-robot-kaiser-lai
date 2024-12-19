@@ -21,7 +21,11 @@ def s ():
     print(left, right)
     if left < 150 or right < 150:
         print ('KYS: keep yourself safe')
-    return left, right
+    else:
+        b(user)
+        print('you are safe!!!!!')
+    return left, right 
+    
     
      
 while True:
