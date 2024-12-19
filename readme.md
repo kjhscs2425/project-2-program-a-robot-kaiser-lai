@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=17246861&assignment_repo_type=AssignmentRepo)
 To install all dependencies, type the following into the Terminal (if you're on Mac) or Anaconda prompt (if you're on Windows):
 
     conda activate cs2425
@@ -5,7 +6,7 @@ To install all dependencies, type the following into the Terminal (if you're on 
     conda install numpy
 
 Project Requirements:
-* [ ] robot moves
+* [] robot moves
 * [ ] robot does not crash into the walls of the box
 * [ ] at least 5 calls to input
 * [ ] at least 5 functions
