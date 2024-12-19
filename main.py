@@ -19,24 +19,34 @@ def r (distance):
 def s ():
     right, left = robot.sonars()
     print(left, right)
-    if left < 100 or right < 100:
+    if left < 150 or right < 150:
         print ('KYS: keep yourself safe')
     return left, right
-
-
+    
+     
 while True:
     going = input(" do you wish to continue y/n?").lower()
     if going == "y":
-        user = bool(input("how long u want to move?"))
-        if user > 1<x<2:
+        user = float(input("how long u want to move?"))
+        if user < 2:
+            print("invalid input")
+        turn = float(input("how long u want to turn?"))
+        if turn < 2:
             print("invalid input")
         else:
             print("moving!")
             x = f(user)
-            r(3)
             b(user)
-            l(3)
+            f(user)
+            b(user)
+            f(user)
+            r(turn)
+            l(turn)
+            r(turn)
+            l(turn)
+            b(user)
             s()
+
     
     elif going == "n":
         robot.exit()
